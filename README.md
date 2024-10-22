@@ -11,7 +11,7 @@ py main.py
 git clone
 cd app
 python3 -m venv env
-.\env\Scripts\activate
+.\env\Scripts\activate || source evn/Scripts/activate
 pip3 install -r requirements.txt
 py main.py
 ```
