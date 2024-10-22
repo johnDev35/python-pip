@@ -10,7 +10,8 @@ py main.py
 ```sh
 git clone
 cd app
-.\env-app\Scripts\activate
+python3 -m venv env
+.\env\Scripts\activate
 pip3 install -r requirements.txt
 py main.py
 ```
