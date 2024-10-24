@@ -15,3 +15,11 @@ python3 -m venv env
 pip3 install -r requirements.txt
 py main.py
 ```
+
+# Web Server project
+```sh
+cd app web-server
+pip3 install fastapi
+pip3 install "uvicorn[standard]"
+uvicorn main:app --reload
+```
